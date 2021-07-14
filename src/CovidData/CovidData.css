@@ -1,0 +1,83 @@
+.CovidDataMain { 
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column; 
+    margin-bottom: 40px;
+  } 
+  
+  .selectDiv {
+    width: 50%;
+    height: 100%; 
+    margin: auto;
+  }
+  
+  .searchButton {
+    color: white;
+    background: black;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .searchResultDiv {
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  .searchLabelDiv {
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .searchLabelDiv p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .covidImage {
+      width: 250px;
+      height: 150px;
+  }
+
+  .buttonClose {
+      width: 80%;
+      height: 40px;
+      font-size: 16px;
+      color: white;
+      background: rgb(30, 153, 210);
+      margin-bottom: 10px;
+      outline: 0;
+      border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .searchResultDiv {
+        flex-flow: column;
+    }
+
+    .searchLabelDiv p {
+        font-size: 14px;
+        align-items: flex-start;
+      }
+
+    .searchButton {
+        width: 50%;
+    }
+  }
