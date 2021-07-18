@@ -1,6 +1,9 @@
 # Covid data tracker :syringe:
+
+## Here is the live version of this project http://evrencovid.surge.sh/
+
 ## App Features :fire:
-:rocket:  React with Modern UI Design 
+:rocket:  React
 
 :rocket:  Typescript
 
@@ -32,21 +35,18 @@ $ cd covidchecker
 ### Remove current origin repository
 $ git remote remove origin
 
-### To install dependencies and run the portfolio you should run following commands in your local machine
+### To install dependencies and run the project you should run following commands in your local machine
 
 ## Node
 $ npm install
 
 ### Start server
-$ npm start
-Using Yarn:
+$ npm start 
 
 ## Yarn
 $ yarn
 
 ### Start server
-$ yarn start
-
-## Here is the live version of this portfolio http://evrencovid.surge.sh/
+$ yarn start 
 
 # ENJOY 🥳
