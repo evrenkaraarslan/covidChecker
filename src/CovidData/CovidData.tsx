@@ -130,6 +130,13 @@ export default function CovidData() {
         </button>  
 
         {
+          !informations.searchClicked && (
+            <div style={{width:'100%'}}>
+            </div>
+           )
+        }
+
+        {
           informations.searchClicked && (
             <div className='searchResultDiv'>
 
