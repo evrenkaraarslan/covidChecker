@@ -35,14 +35,13 @@ $ cd covidchecker
 ### Remove current origin repository
 $ git remote remove origin
 
-### To install dependencies and run the portfolio you should run following commands in your local machine
+### To install dependencies and run the project you should run following commands in your local machine
 
 ## Node
 $ npm install
 
 ### Start server
-$ npm start
-Using Yarn:
+$ npm start 
 
 ## Yarn
 $ yarn
