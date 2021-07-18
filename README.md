@@ -1,4 +1,7 @@
 # Covid data tracker :syringe:
+
+## Here is the live version of this project http://evrencovid.surge.sh/
+
 ## App Features :fire:
 :rocket:  React with Modern UI Design 
 
@@ -45,8 +48,6 @@ Using Yarn:
 $ yarn
 
 ### Start server
-$ yarn start
-
-## Here is the live version of this portfolio http://evrencovid.surge.sh/
+$ yarn start 
 
 # ENJOY 🥳
