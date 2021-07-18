@@ -127,14 +127,7 @@ export default function CovidData() {
           }}
         >
           Search
-        </button>  
-
-        {
-          !informations.searchClicked && (
-            <div style={{width:'100%'}}>
-            </div>
-           )
-        }
+        </button>   
 
         {
           informations.searchClicked && (
