@@ -8,6 +8,7 @@
     width: 100%;   
     margin: auto;
     border: 1px solid black;
+    max-height: 400px;
 } 
 
 .ReactModal__Content--after-open {
