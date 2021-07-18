@@ -1,0 +1,13 @@
+.headerMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145, 227, 238);
+}
+
+@media only screen and (max-width: 800px) {
+    .headerMain h1 {
+      padding-left: 40px;
+    } 
+  }

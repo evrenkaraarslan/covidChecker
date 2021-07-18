@@ -1,0 +1,36 @@
+.countryDetails {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.countryFlag {
+    width: 100%;   
+    margin: auto;
+    border: 1px solid black;
+} 
+
+.ReactModal__Content--after-open {
+    display: flex;
+    flex-flow: column;
+    align-items: center;  
+}
+
+.countryRows {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.closeDetails {
+    background-color: rgb(224, 224, 97);
+    color: white;
+    width: 70%;
+    height: 100px;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.closeDetails:hover {
+    cursor: pointer;
+}
