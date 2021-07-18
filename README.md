@@ -3,7 +3,7 @@
 ## Here is the live version of this project http://evrencovid.surge.sh/
 
 ## App Features :fire:
-:rocket:  React with Modern UI Design 
+:rocket:  React
 
 :rocket:  Typescript
 
