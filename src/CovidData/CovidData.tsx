@@ -7,7 +7,7 @@ import Navbar from '../Navbar/Navbar';
 
 interface mainStates { 
   country: string;  
-  countryOptions: any;
+  countryOptions: { value: string, label: string }[];
   searchClicked: boolean;
   countryName: string;
   confirmedCases: number;
@@ -28,7 +28,7 @@ export default function CovidData() {
   const [informations, setInformations] = React.useState<mainStates>(
     {
     country: '', 
-    countryOptions: '',
+    countryOptions: [],
     searchClicked: false,
     countryName: '',
     confirmedCases: 0,
